@@ -28,7 +28,7 @@
   
 * <span style="color:purple">**Refactor:**</span>  refatore o código, a fim dele ser melhorado, deixando-o mais funcional e mais limpo.
   
-## **Quas os benefícios do `TDD` ?**
+## **Quais os benefícios do `TDD` ?**
 
 * Existem diversos benefícios ao escrevermos os testes antes mesmo de realizar uma implementação.
    
