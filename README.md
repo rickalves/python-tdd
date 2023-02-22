@@ -37,7 +37,7 @@
   
 #
 ## **Como fazer testes unitários?**
-  * Existem diversas ferramentas para realização de teste unitários. Alguns exemplos para diferentes linguagens são:
+  * Existem diversas ferramentas para realização de testes unitários. Alguns exemplos para diferentes linguagens são:
 
 
 
