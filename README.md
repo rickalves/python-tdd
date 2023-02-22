@@ -1,7 +1,7 @@
 # TDD com Python
-~~~
-Projeto de estudo do TDD com a linguagem Python.
-~~~
+
+`Projeto de estudo do TDD com a linguagem Python.`
+
 
 ## **O que é o ```TDD```** ?
 >**TDD** é uma sigla para (**Test Driven Development**), ou *Desenvolvimento Orientado a Testes*. A ideia do TDD é que você trabalhe em ciclos. Estes ciclos ocorrem na seguinte ordem:
