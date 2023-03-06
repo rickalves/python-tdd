@@ -1,4 +1,10 @@
 # TDD com Python
+<<<<<<< HEAD
+=======
+
+`Projeto de estudo do TDD com a linguagem Python.`
+
+>>>>>>> 331742f25946f17ebb385c4621564e4f91792b1b
 
 `Projeto de estudo do TDD com a linguagem Python.`
 
@@ -65,7 +71,7 @@ projeto/
   
 * <span style="color:purple">**Refactor:**</span>  refatore o código, a fim dele ser melhorado, deixando-o mais funcional e mais limpo.
   
-## **Quas os benefícios do `TDD` ?**
+## **Quais os benefícios do `TDD` ?**
 
 * Existem diversos benefícios ao escrevermos os testes antes mesmo de realizar uma implementação.
    
@@ -74,7 +80,7 @@ projeto/
   
 #
 ## **Como fazer testes unitários?**
-  * Existem diversas ferramentas para realização de teste unitários. Alguns exemplos para diferentes linguagens são:
+  * Existem diversas ferramentas para realização de testes unitários. Alguns exemplos para diferentes linguagens são:
 
 
 
@@ -91,7 +97,6 @@ projeto/
   
 * O pytest é um framework de teste para python que provê soluções para executar testes e fazer validações diversas, com a possibilidade de estender com plugins e até rodar testes do próprio unittest do python.
 * É o queridinho da comunidade por sua flexibilidade, pela forma que usa fixtures e pela facilidade de estender suas funcionalidades.
-* Para instalar é tão simples quanto um:
   
 #
 ### **Instalação do Pytest:**
