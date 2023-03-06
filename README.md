@@ -1,8 +1,45 @@
 # TDD com Python
-~~~
-Projeto de estudo do TDD com a linguagem Python.
-~~~
 
+`Projeto de estudo do TDD com a linguagem Python.`
+
+#
+## Como executar esse projeto em sua máquina?
+
+
+1. **Primeiro passo:** Instalar as dependências do projeto:
+   
+   ~~~
+   pip install -r requirements.txt  
+   ~~~
+2. **Segundo passo:** Executar Pytest:
+   
+   ~~~
+   pytest
+   ~~~
+#
+## **Estrutura Básica do Projeto**
+~~~
+projeto/
+|
+|--htmlcov/ (Relatório de Testes)
+|
+|--src/ (Código fonte)
+|   |
+|   |--tests/ (Pasta de testes)
+|        |
+|        |--classes/ (Classes base para teste)
+|        |    |
+|        |    |--funcionario.py (Classe a ser testada)
+|        |
+|        |--test_funcionario.py (Classe de teste)
+|
+|--venv/ (Ambiente virtual)
+|
+|--.coveragerc (Arquivo de configuração do Pytest Cov)
+|
+|--pytest.ini (Arquivo de configuração do Pytest)
+~~~
+#
 ## **O que é o ```TDD```** ?
 >**TDD** é uma sigla para (**Test Driven Development**), ou *Desenvolvimento Orientado a Testes*. A ideia do TDD é que você trabalhe em ciclos. Estes ciclos ocorrem na seguinte ordem:
 
@@ -57,11 +94,36 @@ Projeto de estudo do TDD com a linguagem Python.
 * Para instalar é tão simples quanto um:
   
 #
-### **Instalação do Pytest :**
+### **Instalação do Pytest:**
 ~~~~
-pip install pytest
+pip install -U pytest
 ~~~~
-  
+#
+## Comandos básicos do Pytest
 
+1. Executar testes:
+   
+   ~~~
+   pytest
+   ~~~
+   Execução detalhada (Verbose)
+   ~~~
+   pytest -V
+   ~~~
+
+#
+## **Cobertura de testes (`Coverage`)**
+> Diz respeito a quanto do nosso código está coberto por testes. O ideal é que todas a funcionalidades sensíveis estejam cobertas por testes unitários.
+
+Para verificar a cobertura do nosso código o pytest dispõe de uma extensão chamada (**pytest cov)**.
+
+## Instalando o pytest cov:
+~~~
+pip install pytest-cov
+~~~
+## Executando o pytest cov:
+~~~
+pytest --cov
+~~~
 
 
