@@ -1,10 +1,4 @@
 # TDD com Python
-<<<<<<< HEAD
-=======
-
-`Projeto de estudo do TDD com a linguagem Python.`
-
->>>>>>> 331742f25946f17ebb385c4621564e4f91792b1b
 
 `Projeto de estudo do TDD com a linguagem Python.`
 
