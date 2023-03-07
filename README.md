@@ -21,8 +21,6 @@
 ~~~
 projeto/
 |
-|--htmlcov/ (Relatório de Testes)
-|
 |--src/ (Código fonte)
 |   |
 |   |--tests/ (Pasta de testes)
@@ -120,9 +118,48 @@ Para verificar a cobertura do nosso código o pytest dispõe de uma extensão ch
 ~~~
 pip install pytest-cov
 ~~~
+#
 ## Executando o pytest cov:
+Relatório simples:
 ~~~
-pytest --cov
+pytest --cov=src/tests
+~~~
+Relatório completo:
+~~~
+pytest --cov=src/tests --cov-report term-missing
 ~~~
 
+(Saída):
+~~~
+---------- coverage: platform win32, python 3.10.6-final-0 -----------
+Name                               Stmts   Miss  Cover   Missing
+----------------------------------------------------------------
+src\tests\classes\funcionario.py      20      0   100%
+----------------------------------------------------------------
+TOTAL                                 20      0   100%
+~~~
+
+* `Stmts`: número de linhas testadas no arquivo;
+* `Miss`: número de linhas NÃO testadas no arquivo;
+* `Missing`: números das linhas que não tem nuhum teste;
+* `Cover`: percentual de código testado.
+#
+## Salvando relatórios com pytest cov:
+
+Gerando relatório em HTML (`Cria pasta htmlcov`)
+~~~
+pytest --cov=src/tests --cov-report html
+~~~
+Gerando relatório em XML (`Cria arquivo report.xml`)
+~~~
+pytest --junitxml report.xml
+~~~
+Gerando relatório em XML (`Cria arquivo coverage.xml`)
+~~~
+pytest --cov-report xml
+~~~
+#
+
+# Saiba mais sobre o pytest
+Acesse a documentação do [pytest](https://pytest-cov.readthedocs.io/en/latest/).
 
