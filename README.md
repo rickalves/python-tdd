@@ -31,8 +31,6 @@ projeto/
 |        |
 |        |--test_funcionario.py (Classe de teste)
 |
-|--venv/ (Ambiente virtual)
-|
 |--.coveragerc (Arquivo de configuração do Pytest Cov)
 |
 |--pytest.ini (Arquivo de configuração do Pytest)
