@@ -139,7 +139,7 @@ TOTAL                                 20      0   100%
 
 * `Stmts`: número de linhas testadas no arquivo;
 * `Miss`: número de linhas NÃO testadas no arquivo;
-* `Missing`: números das linhas que não tem nuhum teste;
+* `Missing`: números das linhas que não tem nenhum teste;
 * `Cover`: percentual de código testado.
 #
 ## Salvando relatórios com pytest cov:
