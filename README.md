@@ -6,11 +6,10 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Python TDD**
 | :label: Tecnologias |  python
-| :rocket: URL         | 
 | :fire: Desafio     | https://www.alura.com.br/curso-online-python-tdd-explorando-testes-unitarios
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/rickalves/python-tdd/blob/main/python-tdd.jpg?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://github.com/rickalves/python-tdd/blob/main/python-tdd-canva.jpg?text=imagem+lindona+do+meu+projeto#vitrinedev)
 
 ## Detalhes do projeto
 ![](https://img.shields.io/badge/status-finalizado-brightgreen)
