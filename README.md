@@ -1,6 +1,28 @@
-# TDD com Python
+# TDD com Python🚀
 
 `Projeto de estudo do TDD com a linguagem Python.`
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Python TDD**
+| :label: Tecnologias |  python
+| :rocket: URL         | 
+| :fire: Desafio     | https://www.alura.com.br/curso-online-python-tdd-explorando-testes-unitarios
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://github.com/rickalves/python-tdd/blob/main/python-tdd.jpg?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+## Detalhes do projeto
+![](https://img.shields.io/badge/status-finalizado-brightgreen)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/rickalves/python-tdd/main?color=gree)
+![](https://img.shields.io/github/issues/rickalves/python-tdd.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/rickalves/python-tdd?color=sucess)
+
+
+
+
+
+
 
 #
 ## Como executar esse projeto em sua máquina?
